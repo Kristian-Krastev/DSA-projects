@@ -1,7 +1,0 @@
-name, age, subject, grade, date
-Pesho Petrov,22,DS,6,2017-03-01
-Gosho Ivanov,20,LA,3,2016-09-15
-Ivan Todorov,23,SDP,5,2007-10-30
-Stamat Georgiev,29,LP,3,2020-02-29
-Haralampi Kolev,23,KM,6,2017-12-30
-Gosho Zdravkov,21,DAA,4,2016-09-15

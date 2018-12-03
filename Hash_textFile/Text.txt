@@ -1,0 +1,2 @@
+I have implemented a function that takes a file with words divided by space and prints how many times every word exists
+I am using a regular-expression to do it.

@@ -43,9 +43,11 @@ void Dijkstra(const Graph& G, const Vertex& start_vertex, const Vertex& end_vert
 		Vertex temp = queue.top();
 		queue.pop();
 		for (int i = 0; i < temp.adjacent.size(); i++) {
-			if (temp.adjacent[i].value > temp.value + temp.adjacent[i].edge_val) {
-				temp.adjacent[i].value = temp.value + temp.adjacent[i].edge_val;
-				queue.push(temp.adjacent[i]);
+			if (!visited[temp.adjacent[i].name - 'A']) {
+				if (temp.adjacent[i].value > temp.value + temp.adjacent[i].edge_val) {
+					temp.adjacent[i].value = temp.value + temp.adjacent[i].edge_val;
+					queue.push(temp.adjacent[i]);
+				}
 			}
 		}
 	}
